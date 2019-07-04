@@ -60,6 +60,18 @@ extension MainViewController {
                 let item = self?.viewModel.data.value[row]
                 self?.gotoDetails(with: item)
             }).disposed(by: viewModel.dispose)
+        
+        /// animate cell
+        tableView.rx.willDisplayCell
+            .subscribe(onNext: { args in
+                let cell = args.cell
+                cell.alpha = 0
+                UIView.animate(
+                    withDuration: 0.5,
+                    animations: {
+                        cell.alpha = 1
+                })
+            }).disposed(by: viewModel.dispose)
     }
 }
 
