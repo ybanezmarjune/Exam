@@ -15,7 +15,6 @@ def json
 end
 def ui
     pod 'SDWebImage'
-    pod 'Material'
 end
 
 target 'Exam 101' do

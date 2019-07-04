@@ -1,12 +1,5 @@
 PODS:
   - Alamofire (4.8.2)
-  - Material (3.1.6):
-    - Material/Core (= 3.1.6)
-  - Material/Core (3.1.6):
-    - Motion (~> 3.1.1)
-  - Motion (3.1.1):
-    - Motion/Core (= 3.1.1)
-  - Motion/Core (3.1.1)
   - ObjectMapper (3.5.1)
   - RxAlamofire (5.0.0):
     - RxAlamofire/Core (= 5.0.0)
@@ -25,7 +18,6 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - Material
   - ObjectMapper
   - RxAlamofire
   - RxCocoa
@@ -35,8 +27,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
-    - Material
-    - Motion
     - ObjectMapper
     - RxAlamofire
     - RxCocoa
@@ -46,8 +36,6 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  Material: 9b30613deb1b79487eeede5e4f90cbff084311ea
-  Motion: f115b33f36cc52472a25a965daa89b3859817de0
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   RxAlamofire: e7875a012aff55345672d0f70a2a9cd6aeb0f211
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
@@ -55,6 +43,6 @@ SPEC CHECKSUMS:
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
 
-PODFILE CHECKSUM: 7d51f727530974bea68abeebeb6322b0e69a8a02
+PODFILE CHECKSUM: 543112ea7134f2b3ac41ce52689f4e148b6906f8
 
 COCOAPODS: 1.7.1
