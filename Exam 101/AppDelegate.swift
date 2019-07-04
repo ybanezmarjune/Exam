@@ -11,12 +11,14 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let window  = UIWindow(frame: UIScreen.main.bounds)
+        self.window = window
+        self.window?.makeKeyAndVisible()
+        
+        /// add controller rootview
+        self.window?.rootViewController = UINavigationController(rootViewController: MainViewController())
         return true
     }
 
